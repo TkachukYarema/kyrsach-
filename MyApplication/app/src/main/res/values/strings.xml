@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name" translatable="false">kurosova</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="log_in">Log In</string>
+    <string name="reg">Registration</string>
+    <string name="regtext">Simple registration</string>
+    <string name="name">Enter name</string>
+    <string name="enter_user">Enter username</string>
+    <string name="make_pass">Make password</string>
+    <string name="have_acc">I allready have account</string>
+    <string name="next">Next</string>
+    <string name="create_group">Create group</string>
+    <string name="share_photos_with_friends">share photos with friends</string>
+    <string name="continue_without_group">Continue without group</string>
+    <string name="create_group_but">Create group</string>
+    <string name="friends_username">Friends username</string>
+    <string name="enter_group_name">Enter group name</string>
+</resources>
