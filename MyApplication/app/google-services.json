@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "785523753112",
+    "project_id": "kursach-f5335",
+    "storage_bucket": "kursach-f5335.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785523753112:android:547e3c21edd5b6223c50ed",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkAbVfyxevTLWQsedqRA-Sa1o_uvsjeqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
