@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 String email = etUsername.getText().toString().trim();
                 String password = etPassword.getText().toString().trim();
 
-                signIn(email, password);
+                signIn(email, password); //yarematk@gmail.com 123456 - логін пароль -
               /*  if (etUsername.getText().toString().equals(usertest.getLogin())
                         && etPassword.getText().toString().equals(usertest.getPassword())){
 
