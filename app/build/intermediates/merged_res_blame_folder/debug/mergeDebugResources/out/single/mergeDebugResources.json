@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "com.example.myapplication.app-debug-57:/drawable_menu_lines_drawable.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/menu_lines_drawable.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/layout_activity_screen1.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/layout/activity_screen1.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/layout_activity_group_list.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/layout/activity_group_list.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/mipmap-mdpi_ic_google1.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-mdpi/ic_google1.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/drawable_edit_text_border.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/edit_text_border.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/xml_backup_rules.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/mipmap-hdpi_ic_google1_foreground.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-hdpi/ic_google1_foreground.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/mipmap-anydpi-v26_ic_google1_round.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-anydpi-v26/ic_google1_round.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/layout_mainscreen.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/layout/mainscreen.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/mipmap-xxxhdpi_ic_google1.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-xxxhdpi/ic_google1.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/mipmap-mdpi_ic_google1_foreground.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-mdpi/ic_google1_foreground.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/mipmap-xhdpi_ic_google1.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-xhdpi/ic_google1.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/drawable_ic_search.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/ic_search.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/mipmap-xxhdpi_ic_google1_round.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-xxhdpi/ic_google1_round.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/mipmap-xxhdpi_ic_google1.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-xxhdpi/ic_google1.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/mipmap-xhdpi_ic_google1_round.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-xhdpi/ic_google1_round.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/layout_activity_registration.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/layout/activity_registration.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/mipmap-hdpi_ic_google1_round.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-hdpi/ic_google1_round.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/mipmap-xhdpi_ic_google1_foreground.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-xhdpi/ic_google1_foreground.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/mipmap-xxxhdpi_ic_google1_foreground.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-xxxhdpi/ic_google1_foreground.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/mipmap-xxxhdpi_ic_google1_round.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-xxxhdpi/ic_google1_round.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/mipmap-xxhdpi_ic_google1_foreground.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-xxhdpi/ic_google1_foreground.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/layout_activity_main.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/drawable_gradient_background.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/gradient_background.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/mipmap-hdpi_ic_google1.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-hdpi/ic_google1.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/mipmap-anydpi-v26_ic_google1.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-anydpi-v26/ic_google1.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/mipmap-mdpi_ic_google1_round.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-mdpi/ic_google1_round.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-57:/drawable_ic_launcher.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/ic_launcher.png"
+    }
+]

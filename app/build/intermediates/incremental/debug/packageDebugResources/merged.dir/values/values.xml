@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_gradient1">#2567E8</color>
+    <color name="bg_gradient2">#1CE6DA</color>
+    <color name="black">#FF000000</color>
+    <color name="ic_google1_background">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name" translatable="false">kurosova</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_without_group">Continue without group</string>
+    <string name="create_group">Create group</string>
+    <string name="create_group_but">Create group</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="email"> Email</string>
+    <string name="enter_group_name">Enter group name</string>
+    <string name="enter_user">Enter username</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="friends_username">Friends username</string>
+    <string name="have_acc">I allready have account</string>
+    <string name="log_in">Log In</string>
+    <string name="login">Login</string>
+    <string name="make_pass">Make password</string>
+    <string name="name">Enter name</string>
+    <string name="next">Next</string>
+    <string name="or">Or</string>
+    <string name="password">Password</string>
+    <string name="reg">Registration</string>
+    <string name="regtext">Simple registration</string>
+    <string name="remember_me">Remember me</string>
+    <string name="share_photos_with_friends">share photos with friends</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username">Username</string>
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication"/>
+</resources>
