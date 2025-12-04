@@ -25,13 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private  Intent intent;
     String AnonKeyclient = "sb_publishable_pfOqNPwzinU_KL0Usgm1Cg_VoGO2Oex";
     String SupUrlclient = "https://xdvqoufyfbqhyqdsthna.supabase.co";
-    private void saveAccessToken(String token) {
 
-
-        Log.d("AUTH", "Збережено токен: " + token);
-
-
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +39,17 @@ public class MainActivity extends AppCompatActivity {
         edEmail = findViewById(R.id.email);
 
         SupaBaseClient= new Supabase(SupUrlclient, AnonKeyclient);
+        btnSignIn.setOnClickListener(new View.OnClickListener(){
 
+
+            @Override
+            public void onClick(View v) {
+                Intent intent1 = new Intent(MainActivity.this,Login.class);
+                startActivity(intent1);
+            }
+
+        }
+        );
         btnReg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -55,18 +59,24 @@ public class MainActivity extends AppCompatActivity {
                 String email = edEmail.getText().toString().trim();
 
                 if (email.isEmpty() || password.length() < 6) {
-                    Toast.makeText(MainActivity.this, "Email та Пароль (мін. 6 символів) є обов'язковими.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Email та Пароль (мін. 6 символів).", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
                 SupaBaseClient.signUpUser(email, password, new Supabase.ApiCallback() {
+                    private void saveAccessToken(String token) {
 
+
+                        Log.d("AUTH", "Збережено токен: " + token);
+
+
+                    }
                     @Override
                     public void onSuccess(String resultJson) {
                         runOnUiThread(() -> {
                             Toast.makeText(MainActivity.this, "Реєстрація успішна. Виконуємо вхід...", Toast.LENGTH_SHORT).show();
 
-                            SupaBaseClient.signUpUser(email, password, new Supabase.ApiCallback() {
+                            SupaBaseClient.signInUser(email, password, new Supabase.ApiCallback() {
 
                                 @Override
                                 public void onSuccess(String resultJson) {
@@ -97,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
                                 @Override
                                 public void onFailure(String errorMessage) {
                                     runOnUiThread(() -> {
-                                        Toast.makeText(MainActivity.this, "Помилка автоматичного входу: " + errorMessage, Toast.LENGTH_LONG).show();
+                                        Log.d("Error","Помилка автоматичного входу: " + errorMessage);
                                     });
                                 }
                             });

@@ -26,7 +26,7 @@ public class Supabase {
                 this.supUrl = supUrl;
                 this.AnonKey = AnonKey;
         }
-//метод для отримання усіх данних в таблиці у вигляді json
+//(ДЛЯ ТЕСТА)метод для отримання усіх данних в таблиці у вигляді json
         public void fetchData(String tableName, final ApiCallback callBack){
                 String url = supUrl + "/rest/v1/" + tableName + "?select=*";
 
@@ -80,7 +80,7 @@ public class Supabase {
                         .headers(headers)
                         .post(requestBody)
                         .build();
-                Log.d("AUTH_DEBUG", "Sending Supabase request to: " + url);
+                Log.d("AUTH_DEBUG", "Sending Supabase request " + url);
                 client.newCall(request).enqueue(new Callback() {
 
                         @Override
